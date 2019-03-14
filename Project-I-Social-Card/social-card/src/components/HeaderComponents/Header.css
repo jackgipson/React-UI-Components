@@ -4,6 +4,7 @@
     margin: 0 auto;
     max-width: 550px;
     box-sizing: border-box;
+    /* width: 100%; */
 }
 
 .ImageThumbnail {
@@ -14,12 +15,12 @@
     margin-top: 6px;
     margin-left: -35px;
     position: absolute; */
-    border: 1px solid red;
 }
 
 .Logo {
     width: 50px;
     object-fit: contain;
+    margin-top: 13px;
 }
 
 h2 {
@@ -35,7 +36,7 @@ h2 {
 span {
     margin-bottom: 0px;
     font-size: 1.0rem;
-    margin-left: 2%;
+    margin-left: 1%;
     color: #8D9AA4;
     /* margin-right: -85% */
 }
@@ -52,10 +53,9 @@ h3 {
 
 .HeaderTitle {
     /* display: flex; */
-    width: 100%;
+     width: 110%; 
     font-size: .7rem;
     align-items: baseline;
-    border: 1px solid green;
 }
 
 .Content p {
@@ -80,9 +80,7 @@ h3 {
     position: absolute;
 } */
 
-.header-content {
-    border: 1px solid black;
-}
+
 
 /* .HeaderTitle {
     //display: -ms-flexbox;
@@ -100,6 +98,9 @@ h3 {
 
 .top-title {
     display: flex;
+    /* position: absolute;
+    top: 0px; */
+    height: 22px;
 }
 
 .name {
