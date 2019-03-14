@@ -7,8 +7,12 @@
 
 .ImageThumbnail {
     width: 50px;
-    height: 100px;
+    /* height: 100px; */
     object-fit: contain;
+    float: left;
+    margin-top: 6px;
+    margin-left: -35px;
+    position: absolute;
 }
 
 h2 {
@@ -61,6 +65,9 @@ h3 {
     margin-left: 4%;
 } */
 
-/* .ImageThumbnail, .HeaderContainer {
-    position: relative;
+/* .ImageThumbnail {
+    float: left;
+    margin-top: 87px;
+    margin-left: -58px;
+    position: absolute;
 } */
