@@ -2,7 +2,7 @@
 
 .HeaderContainer {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 550px;
 }
 
 .ImageThumbnail {
@@ -11,12 +11,21 @@
     object-fit: contain;
 }
 
-h1 {
+h2 {
+    font-size: 1.0rem;
+    margin-bottom: 0px;
+}
+
+.h1 {
+    margin-bottom: 0px;
     font-size: 1.2rem;
 }
 
-h2 {
+span {
     margin-bottom: 0px;
+    font-size: 1.0rem;
+    margin-left: 2%;
+    color: #8D9AA4;
 }
 
 h3 {
@@ -38,6 +47,7 @@ h3 {
 
 .Content p {
     margin-top: 5px;
+    font-size: .9rem;
 }
 
 .Content {
