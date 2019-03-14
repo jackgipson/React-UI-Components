@@ -1,12 +1,17 @@
 /* All styles for your Card Components live here */
 
+.CardContainer {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
 .CardBanner {
     max-width: 500px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .CardContent {
-    margin-left: 11%;
+    margin-left: 5%;
 }
 
 h3 {
@@ -25,5 +30,8 @@ h3 {
     font-size: .9rem;
 }
 
+.ImageThumbnail, .HeaderTitle {
+    display: flex;
+}
         
 
